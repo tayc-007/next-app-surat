@@ -1,0 +1,13 @@
+.approachh1{
+    font-weight: bold;
+    background: -webkit-linear-gradient(right, #244cbe, #67009a)!important;
+    -webkit-background-clip: text!important;
+    -webkit-text-fill-color: transparent!important;
+    font-size: 62px;
+    text-align: center;
+}
+.approachh2{
+    color: rgb(45,45,45);
+    font-style: italic;
+    
+}

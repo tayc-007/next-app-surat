@@ -1,0 +1,19 @@
+.heading{
+    margin-bottom: 50px;
+    font-weight: 700;
+    background-color: #67009a;
+    background-image: linear-gradient(to right, #67009a, #244cbe);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    font-size: 38px;
+    -moz-text-fill-color: transparent;
+    line-height: 1.3em;  
+}
+.heading2{
+    color: rgb(184,184,184);
+    font-weight: 700;
+    font-size: 23px;
+    text-align: left;
+}

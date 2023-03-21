@@ -1,0 +1,14 @@
+.img{
+    border-radius: 200px;
+    border: 3px solid white;
+}
+.fonth1{
+    font-size: 44px;
+    text-align: left;
+    line-height: 1em;
+    font-weight: 700;
+}
+.fontp{
+    text-align: left;
+    font-size: 18px;
+}
