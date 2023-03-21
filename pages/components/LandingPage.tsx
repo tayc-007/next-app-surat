@@ -1,5 +1,5 @@
 import Image from "next/image";
-
+import {Link} from "react-scroll";
 import { ChakraProvider,Hide,Center,GridItem,Grid,Button, Card, CardHeader, CardBody, CardFooter,Text,Heading,Stack,StackDivider,Box ,SimpleGrid  ,Container} from '@chakra-ui/react'
 import styles from "@/styles/stats.module.css";
 export default function LandingPage(){
@@ -37,7 +37,7 @@ return(
       bgGradient="linear-gradient(to right, #67009a, #244cbe)" 
       color="white" 
       borderRadius="20px">
-      Book Your Call Now
+    <Link to="call" spy={true} smooth={true} offset={50} duration={500}>Book Your Call Now</Link>
     </Button>
   </Container>
   </GridItem>
