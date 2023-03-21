@@ -29,10 +29,10 @@ return(
     />
     </Container>
   </GridItem>
-  <GridItem  area={'nav'}>
+  <GridItem pl="10px" area={'nav'}>
   <Heading className={styles.heading2} fontWeight="700" fontSize={['23px','38px','38px']}>WHAT WE DO...</Heading>
   <Heading className={styles.heading} fontSize={['38px','50px','50px']}color='primary'>We Help Local Dealerships Bring More Customers Through The Door With Social Media Marketing.</Heading>
-  <Container  maxW='auto' color='white' centerContent>
+  <Container  maxW='auto' color='white' centerContent pt={["0","0","200px"]}>
     <Button
       bgGradient="linear-gradient(to right, #67009a, #244cbe)" 
       color="white" 
