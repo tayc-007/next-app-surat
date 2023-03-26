@@ -35,7 +35,7 @@ export default function Call(){
   <style jsx>{`
         .calendly-inline-widget {
           min-width:270px;
-          height:800px;
+          height:900px;
          
           
         }
