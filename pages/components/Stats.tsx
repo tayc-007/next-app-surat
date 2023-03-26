@@ -10,7 +10,7 @@ mt={"10px"}
   templateAreas={`
                   "nav nav"
                   "main main"`}
-  gridTemplateRows={['1fr','1fr 1fr','1fr 1fr']}
+  gridTemplateRows={['1fr','1fr','1fr 1fr']}
   gridTemplateColumns={'1fr 1fr'}
   bgGradient={"linear-gradient(to right, #67009a, #244cbe)"}
   
@@ -29,7 +29,7 @@ mt={"10px"}
   <GridItem  mt={["0px","0px","10px"]} area={'main'}>
   <Container  centerContent maxW="auto" pb="3">
       
-      <SimpleGrid columns={[1,3,3]} spacing={["1","1","4"]} >
+      <SimpleGrid columns={[1,1,3]} spacing={["1","1","4"]} >
       <Card textAlign="center" borderRadius={20}>
     <CardHeader>
       <Heading fontSize={["32px","34px","46px"]} fontWeight="900"> £1.53</Heading>
