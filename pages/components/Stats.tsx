@@ -27,32 +27,32 @@ mt={"10px"}
 </Container>
   </GridItem>
   <GridItem  mt={["0px","0px","10px"]} area={'main'}>
-  <Container  centerContent maxW="auto">
+  <Container  centerContent maxW="auto" pb="3">
       
-      <SimpleGrid columns={[1,3,3]}  >
+      <SimpleGrid columns={[1,3,3]} spacing={["1","1","4"]} >
       <Card textAlign="center" borderRadius={20}>
     <CardHeader>
-      <Heading size='md'> £1.53</Heading>
+      <Heading fontSize={["32px","34px","46px"]} fontWeight="900"> £1.53</Heading>
     </CardHeader>
     <CardBody>
-      <Text>AVERAGE CPC</Text>
+      <Text fontSize={["14px","16px","20px"]} fontWeight="900">AVERAGE CPC</Text>
     </CardBody>
   </Card>
   <Card borderRadius={20} mt={["10px","0px","0px"]} ml={["0","0","10px"]} textAlign="center">
     <CardHeader>
-      <Heading size='md'> £11.52</Heading>
+      <Heading fontSize={["32px","34px","46px"]} fontWeight="900"> £11.52</Heading>
     </CardHeader>
     <CardBody>
-      <Text>AVERAGE CPM</Text>
+      <Text fontSize={["14px","16px","20px"]} fontWeight="900">AVERAGE CPM</Text>
     </CardBody>
    
   </Card >
   <Card borderRadius={20} mb={["10px","0px","0px"]} mt={["10px","0px","0px"]} ml={["0","0","10px"]} textAlign="center">
     <CardHeader>
-      <Heading size='md'> 2.1 BILLION</Heading>
+      <Heading fontSize={["32px","34px","46px"]} fontWeight="900"> 2.1 BILLION</Heading>
     </CardHeader>
     <CardBody>
-      <Text>POTENTIAL USER REACH</Text>
+      <Text fontSize={["14px","16px","20px"]} fontWeight="900">POTENTIAL USER REACH</Text>
     </CardBody>
     
   </Card>

@@ -31,12 +31,22 @@ export default function Call(){
   
   <GridItem pl='2'  area={'nav'} id="call">
   
-  <Script src="https://www.google-analytics.com/analytics.js" strategy="lazyOnload" />
+  {/* <!-- Calendly inline widget begin --> */}
+  <style jsx>{`
+        .calendly-inline-widget {
+          min-width:300px;
+          height:750px;
+         
+          
+        }
+      
+      `}</style>
+<div className="calendly-inline-widget" data-url="https://calendly.com/surat-digital/discovery-call" id="call"></div>
+<Script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async />
+{/* <!-- Calendly inline widget end --> */}
 
-  <Script  src="https://asset-tidycal.b-cdn.net//js/embed.js"/>
-      <div id="tidycal-embed" data-path="tayseer/30-minute-meeting"></div>
   </GridItem>
-  <GridItem pl='2'  area={'main'}>
+  <GridItem pl='2' pt="2"  area={'main'} >
     <Container centerContent maxW="100%">
     <Image className={styles.callimg} src="/img/hamad+tayseer.jpg" alt="" width={170}height={170}/>
  <Heading fontWeight="900"color="rgb(71,71,71)" className={styles.callh2} fontSize={["14px","15px","20px"]}textAlign="left"> SCHEDULE YOUR CALL WITH THE FOUNDERS</Heading>
