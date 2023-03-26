@@ -34,8 +34,8 @@ export default function Call(){
   {/* <!-- Calendly inline widget begin --> */}
   <style jsx>{`
         .calendly-inline-widget {
-          min-width:300px;
-          height:750px;
+          min-width:270px;
+          height:800px;
          
           
         }
