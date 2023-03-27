@@ -1,6 +1,6 @@
 // pages/_app.js
 
-import '@fontsource/montserrat/'
+
 import theme from '@/styles/theme';
 import { ChakraProvider } from '@chakra-ui/react'
 
