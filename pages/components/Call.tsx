@@ -46,7 +46,7 @@ export default function Call(){
 {/* <!-- Calendly inline widget end --> */}
 
   </GridItem>
-  <GridItem pl='2' pt="2"  area={'main'} >
+  <GridItem pl='2' pt={["4","4","150px"]}  area={'main'} >
     <Container centerContent maxW="100%">
     <Image className={styles.callimg} src="/img/hamad+tayseer.jpg" alt="" width={170}height={170}/>
  <Heading fontWeight="900"color="rgb(71,71,71)" className={styles.callh2} fontSize={["14px","15px","20px"]}textAlign="left"> SCHEDULE YOUR CALL WITH THE FOUNDERS</Heading>
