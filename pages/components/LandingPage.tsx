@@ -2,9 +2,12 @@ import Image from "next/image";
 import {Link} from "react-scroll";
 import { ChakraProvider,Hide,Center,GridItem,Grid,Button, Card, CardHeader, CardBody, CardFooter,Text,Heading,Stack,StackDivider,Box ,SimpleGrid  ,Container} from '@chakra-ui/react'
 import styles from "@/styles/stats.module.css";
-
+import ReactPixel from 'react-facebook-pixel';
 export default function LandingPage(){
-
+  
+const handleClick = () =>{
+  ReactPixel.track('track', 'Schedule');
+}
 return(
  
 <>
