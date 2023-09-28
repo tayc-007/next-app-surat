@@ -22,7 +22,7 @@ return(
   
   
 >
-  <GridItem pl='2' pt="20" pb="20" area={'header'}>
+  <GridItem pl='2' pt="20px" pb="20px" area={'header'}>
     <Container centerContent>
     <Image src="/img/logo.png" 
     alt="Surat-digital" 
