@@ -1,10 +1,9 @@
 import Head from 'next/head'
-import styles from '@/styles/thankyou.module.css'
+import styles from '@/styles/Home.module.css'
 import Script from 'next/script'
-import Image from 'next/image'
-import { ChakraProvider,GridItem,Grid,Button, Card, CardHeader, CardBody, CardFooter,Text,Heading,Stack,StackDivider,Box ,SimpleGrid  ,Container, Flex, Center} from '@chakra-ui/react'
+import { ChakraProvider,GridItem,Grid,Button, Card, CardHeader, CardBody, CardFooter,Text,Heading,Stack,StackDivider,Box ,SimpleGrid  ,Container} from '@chakra-ui/react'
 
-export default function Thankyou(): JSX.Element {
+export default function thankyou() {
     return (
       <>
         <Head>
@@ -14,37 +13,9 @@ export default function Thankyou(): JSX.Element {
           <link rel="icon" href="/favicon.ico" />
           
         </Head>
-        
-        <main>
-
-           <Center width={"100vw"} height={"100vh"}>
-        <Flex>
-        <Container textAlign={'center'} centerContent maxW={'auto'} >
-          <Image alt="" src="/img/logo.png" height={100} width={200} />
-        <Heading className={styles.h1} fontSize={["34px","38px","42px"]} pt={"10px"}>You’re Booked!</Heading>
-      <br></br>
-      <br></br>
-    <Text fontSize={["14px","18px","25px"]}>
-      
-      I sent you an email confirming the date/time. Please mark this in your calendar now.
-<br></br>
-<br></br>
-Myself, or someone on my team will call you via Zoom or phone at the time that you selected if you
-<br></br>selected Zoom or phone at the time that you selected if you selected Zoom call, please check your
-<br></br> email for our meeting room link.
-<br></br>
-<br></br>
-If you’re more than 5 mins late the call will be cancelled, and you will not be able to reschedule.
-<br></br>Please make sure you’re in a quiet room, no airport, no calls while driving, etc.
-<br></br>
-<br></br>
-I look forward to helping you scale - Surat Digital
-
-    </Text>
-  </Container>
-        </Flex>
-      </Center>
-
+        Container
+        <main className={styles.main}>
+       
         </main>
       </>
     )

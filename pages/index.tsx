@@ -12,7 +12,7 @@ import { ChakraProvider,GridItem,Grid,Button, Card, CardHeader, CardBody, CardFo
 
 
 
-export default function home() {
+export default function Home() {
   return (
     <>
       <Head>
