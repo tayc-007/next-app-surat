@@ -20,11 +20,17 @@ export default function Founders(){
 
   fontWeight='bold'
   mt={"10px"}
+  pt={20}
+  pb={20}
 >
   
   <GridItem   area={'nav'} pt="3" pb="2">
       <Container centerContent maxWidth={"100%"}>
-    <Image className={styles.img} src="/img/hamad+tayseer.jpg" alt="" height={300} width={300}  />
+        <SimpleGrid columns={2} spacing={4} mb={[8,,4]}>
+        <Image className={styles.img} src="/img/pic-1.jpg" alt="" height={200} width={200}  />
+    <Image className={styles.img} src="/img/pic 3.jpeg" alt="" height={200} width={200}  />
+        </SimpleGrid>
+    
     <Hide below="md">
     <Heading color={'white'} fontSize="22px">HAMAD & TAYSEER</Heading>
     <Heading color={'white'} fontSize="22px">FOUNDERS</Heading>

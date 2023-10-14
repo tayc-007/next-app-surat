@@ -8,6 +8,7 @@ import Founders from './components/Founders'
 import Call from './components/Call'
 import LandingPage from './components/LandingPage'
 import { ChakraProvider,GridItem,Grid,Button, Card, CardHeader, CardBody, CardFooter,Text,Heading,Stack,StackDivider,Box ,SimpleGrid  ,Container} from '@chakra-ui/react'
+import Footer from './components/Footer'
 
 
 
@@ -29,6 +30,7 @@ export default function Home() {
       <Approach />
       <Founders />
       <Call />
+      <Footer />
       </main>
     </>
   )

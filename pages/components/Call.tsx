@@ -17,7 +17,8 @@ export default function Call(){
     
   templateAreas={[`
   "nav nav"
-  "main main"`,`
+  "main main"
+  `,`
   "nav main"
   "nav main"`,`
   "nav main"
@@ -48,7 +49,10 @@ export default function Call(){
   </GridItem>
   <GridItem pl='2' pt="2"  area={'main'} >
     <Container centerContent maxW="100%">
-    <Image className={styles.callimg} src="/img/hamad+tayseer.jpg" alt="" width={170}height={170}/>
+    <SimpleGrid columns={2} spacing={4}>
+        <Image className={styles.callimg} src="/img/pic-1.jpg" alt="" height={170} width={170}  />
+    <Image className={styles.callimg} src="/img/pic 3.jpeg" alt="" height={170} width={170}  />
+        </SimpleGrid>
  <Heading fontWeight="900"color="rgb(71,71,71)" className={styles.callh2} fontSize={["14px","15px","20px"]}textAlign="left"> SCHEDULE YOUR CALL WITH THE FOUNDERS</Heading>
  
  <Heading fontWeight="900"className={styles.callh1} fontSize={["42px","52px","62px"]} textAlign="left">Free 30-Minute Demo Call</Heading>

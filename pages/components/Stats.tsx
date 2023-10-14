@@ -19,15 +19,15 @@ mt={"10px"}
   <GridItem  area={'nav'} >
   
     <Container  maxW="auto" centerContent>
-    <Heading fontSize={['16px','','36px']} fontWeight={'900'} textAlign={'center'} color='white'>
+    <Heading fontSize={['16px','','36px']} fontWeight={'900'} textAlign={'center'} color='white' pt="5">
   THE POWER OF FACEBOOK ADVERTISING:</Heading>
-  <Heading fontSize={['55px','','85px']} fontWeight={'900'} textAlign={'center'} color='white'>£67.8 BILLION</Heading>
+  <Heading fontSize={['35px','','85px']} fontWeight={'900'} textAlign={'center'} color='white'>£67.8 BILLION</Heading>
   <Heading fontSize={['1.75rem','','']} fontWeight={'600'} textAlign={'center'} color='white'>Total Ads Revenue in 2022</Heading>
   
 </Container>
   </GridItem>
   <GridItem  mt={["0px","0px","10px"]} area={'main'}>
-  <Container  centerContent maxW="auto" pb="3">
+  <Container  centerContent maxW="auto" pb="3" pt="4  ">
       
       <SimpleGrid columns={[1,1,3]} spacing={["1","1","4"]} >
       <Card textAlign="center" borderRadius={20}>
